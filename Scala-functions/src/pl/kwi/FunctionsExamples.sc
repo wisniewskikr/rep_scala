@@ -81,12 +81,13 @@ object FunctionsExamples {
   }                                               //> function_implicitReturn: (text: String)Int
   println(function_implicitReturn("Some text"))   //> 4
   
+  
   /**
 	 * Function without return.
 	 */
   def function_withoutReturn(text: String) = {
   	println(text)
   }                                               //> function_withoutReturn: (text: String)Unit
-  
+    
   
 }

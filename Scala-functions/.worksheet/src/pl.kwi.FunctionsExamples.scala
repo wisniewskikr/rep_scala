@@ -73,7 +73,8 @@ object FunctionsExamples {;import org.scalaide.worksheet.runtime.library.Workshe
   	var x: Int = 4
   	x
   };System.out.println("""function_implicitReturn: (text: String)Int""");$skip(48); 
-  println(function_implicitReturn("Some text"));$skip(111); 
+  println(function_implicitReturn("Some text"));$skip(114); 
+  
   
   /**
 	 * Function without return.
@@ -81,6 +82,6 @@ object FunctionsExamples {;import org.scalaide.worksheet.runtime.library.Workshe
   def function_withoutReturn(text: String) = {
   	println(text)
   };System.out.println("""function_withoutReturn: (text: String)Unit""")}
-  
+    
   
 }
